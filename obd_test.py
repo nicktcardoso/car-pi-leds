@@ -23,7 +23,7 @@ print(f"Oil temperature: {responses[3].value}")
 
 for cmd in [obd.commands.PIDS_A, obd.commands.PIDS_B]:
     resp = connection.query(cmd)
-    print(cmd.name, resp.value
+    print(cmd.name, resp.value)
 
 # obd.commands.SPEED                  # Vehicle speed (confirmed)
 # obd.commands.RPM                    # Engine RPM (confirmed)
